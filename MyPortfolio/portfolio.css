@@ -1,0 +1,206 @@
+.body
+{
+	font-family: Raleway;
+}
+.image
+{
+	background: url(images/cover1.jpg) no-repeat center center;
+   	background-size: cover;
+   	width: 100%;
+   	height: 540px;
+}
+.heading {
+	color: white;
+	text-align: center;
+	padding-top: 200px;
+}
+.image  p {
+  	text-align: center;
+  	padding: 20px 60px;
+}
+.btn
+{
+  	background-color: transparent;
+  	color: white;
+  	border: 2px solid white;
+  	padding: 10px;
+  	font-size: 20px;
+  	border-radius: 0px;
+}
+.btn:hover 
+{
+  	color: white;
+  	background-color: #e31b6d;
+  	border-color: #e31b6d;
+}
+.highlight
+{
+	font-family: raleway-semibold;
+	color: #e31b6d;
+}
+.navbar
+{
+	background-color: #1b242f;
+	border-bottom: 3px solid #04c2c9;
+	border-radius: 0px; 
+	display:flex;
+	justify-content:center;
+}
+.nav li a
+{
+	font-size: 20px;
+	color: white;
+  	margin: 5px 5px 5px 5px;
+  	text-transform: uppercase;
+}
+.nav li a:hover 
+{
+	background-color: transparent;
+	color: #e31b6d;
+}
+.oHeading
+{
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #444649;
+}
+.bar
+{
+	background-color: #444649;
+	height: 4px;
+	width: 100px;
+	margin: 5px 0px 100px 0px;
+}
+.section
+{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+.animation.slide-in-left
+{
+	animation: slideInLeft 0.75s ease both;
+}
+@keyframes slideInLeft
+{
+	0%{
+		opacity: 0;
+transform: translateX(-300px);
+	}
+	100%
+	{
+		opacity: 1;
+transform: translateX(0);
+	}
+} 
+.glyphiconborder
+{
+  width: 80px;
+  height: 80px;
+  border-radius: 20px 0px 20px 0px;
+  background-color: #e31b6d;
+  display: inline-table;
+  text-align: center;
+}
+.glyphiconborder span
+{
+  font-size: 40px;
+  vertical-align: middle;
+  display: table-cell;
+  color: white;
+}
+.animation.flip-in-x
+{
+	animation: flipInX 0.75s ease both;
+}
+@keyframes flipInX
+{
+	0%
+	{
+	    -webkit-animation-timing-function: ease-in;
+	    animation-timing-function: ease-in;
+	    opacity: 0;
+	    -webkit-transform: perspective(400px) rotateY(90deg);
+	    transform: perspective(400px) rotateY(90deg);
+	}
+	40%
+	{
+	    -webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		-webkit-transform: perspective(400px) rotateY(-20deg);
+		transform: perspective(400px) rotateY(-20deg);
+	}
+	60%
+	{
+	    opacity: 1;
+		-webkit-transform: perspective(400px) rotateY(10deg);
+		transform: perspective(400px) rotateY(10deg);
+	}
+	80%
+	{
+	    -webkit-transform: perspective(400px) rotateY(-5deg);
+		transform: perspective(400px) rotateY(5deg);
+	}
+	100%
+	{
+	    opacity: 1;
+		-webkit-transform: perspective(400px);
+		transform: perspective(400px);
+	}
+} 
+.waypoint
+{
+	opacity: 0;
+}
+.service
+{
+	font-size: 30px;
+	color: 444649;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.service div
+{
+	font-size: 20px;
+}
+.animation.fade-in
+{
+	animation: fadeIn 0.75s ease both;
+}
+@keyframes fadeIn
+{
+	100%
+	{
+		opacity: 1;
+	}
+}
+.myimage
+{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background-image: url(images/myimage.jpeg);
+	background-color: black;
+}
+.skills
+{
+	margin-top: 150px;
+
+}
+.animation.slide-in-right
+{
+	animation: slideInRight 0.75s ease both;
+}
+@keyframes slideInRight
+{
+	0%{
+		opacity: 0;
+transform: translateX(300px);
+	}
+	100%
+	{
+		opacity: 1;
+transform: translateX(0);
+	}
+} 
+
+
